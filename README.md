@@ -1,1 +1,2 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+[https://www.brentdanley.codes/](brentdanley.codes)
+
