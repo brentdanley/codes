@@ -1,6 +1,7 @@
 ---
 title: Brent Danley's Resume
 date: '2021-01-01'
+excerpt: Brent's resume with employment and education history
 ---
 
 ## Employment Highlights
