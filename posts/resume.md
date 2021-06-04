@@ -94,8 +94,8 @@ Associate of Applied Science, Avionics Systems Technologies
    * Presented on Sass
    * Presented on Charles Proxy
 * Drupal User Group
-   * Presenter at April 2012 meeting on Features module, gitolite, and IRC as a development resourcejQuery Conference, Chicago - 2014
-* Query Conference, Chicago - 2014
+   * Presenter at April 2012 meeting on Features module, gitolite, and IRC as a development resource
+* jQuery Conference, Chicago - 2014
 * Acquia Engage, Boston - 2016
 * DrupalCon, Baltimore - 2017
 * React Boston - 2018
