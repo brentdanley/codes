@@ -13,11 +13,12 @@
 - Header
 - Navigation
     - Personal site
-- Footer
-    - Social media links
     - GitHub
     - Codepen
+- Footer
+    - Social media links
 - Category pages
+- Font Awesome
 
 Post ideas
 - bowling
