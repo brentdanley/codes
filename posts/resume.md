@@ -1,5 +1,5 @@
 ---
-title: "Resume"
+title: Brent Danley's Resume
 date: '2021-01-01'
 ---
 

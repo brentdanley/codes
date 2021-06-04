@@ -3,7 +3,6 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
-import { Profiler } from 'react'
 
 const name = 'Brent Danley'
 export const siteTitle = 'Brent Danley - Code Portfolio'
