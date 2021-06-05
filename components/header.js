@@ -4,7 +4,7 @@ import PrimaryNavigation from './primary-navigation'
 import utilStyles from '../styles/utils.module.css'
 import styles from './layout.module.css'
 
-export default function Header(props) {
+const Header = props => {
     return (
         <header className={styles.header}>
                 <PrimaryNavigation />
@@ -28,3 +28,5 @@ export default function Header(props) {
         </header>
     )
 }
+
+export default Header

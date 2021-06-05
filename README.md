@@ -17,10 +17,16 @@
     - Codepen
 - Footer
     - Social media links
+    - Personal site
 - Category pages
 - Font Awesome
+- Search - https://medium.com/@matswainson/building-a-search-component-for-your-next-js-markdown-blog-9e75e0e7d210
+- Post comments - https://codeytek.com/integrating-disqus-in-your-next-js-react-application/
 
-Post ideas
+### Homepage
+- Video intro
+
+### Post ideas
 - bowling
 - it's cold
 - shopify
@@ -31,6 +37,10 @@ Post ideas
 - git
 - Emmet
 - ADA
+- Automated testing
+- TypeScript
 - Projects
-    - Triple Pundit
+    - Triple Pundit (ReactJS)
+    - Ethical Performance (EmberJS)
+    - ReportAlert.info (Jekyll)
 - Slide toggle

@@ -25,7 +25,7 @@ export default function PrimaryNavigation() {
         {
             navItems.map(item => (
                 item.link.indexOf('http') === 0
-                    ? <a href={item.link}>{item.label}</a>
+                    ? <a href={item.link} target="_blank">{item.label}</a>
                     : <Link href={item.link}><a>{item.label}</a></Link>
             ))
         }
