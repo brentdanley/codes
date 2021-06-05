@@ -8,7 +8,7 @@ import styles from './layout.module.scss'
 const name = 'Brent Danley'
 export const siteTitle = 'Brent Danley - Code Portfolio'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, title }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -24,7 +24,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <Header isHome={home} name={name} title={`<${name.split(" ").join("")} />`} />
+      <Header isHome={home} name={name} title={title} />
       <main className={styles.main}>{children}</main>
       {!home && (
         <div className={styles.backToHome}>

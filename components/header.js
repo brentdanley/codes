@@ -19,11 +19,7 @@ const Header = props => {
                     />
                     </a>
                 </Link>
-                <h2 className={styles.title}>
-                    <Link href="/">
-                    <a>{props.title}</a>
-                    </Link>
-                </h2>
+                <h2 className={styles.title}>{props.title}</h2>
         </header>
     )
 }
