@@ -1,9 +1,15 @@
 .container {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .backToHome {
-    margin: 3rem 0 0;
-  }
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px 5%;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}

@@ -1,0 +1,26 @@
+.postCard {
+    border: 1px solid black;
+    max-width: 420px;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgb(119, 119, 119);
+
+    display: grid;
+    grid-template-areas: 'title' 'date' 'excerpt';
+}
+
+.title {
+    grid-area: title;
+    justify-self: center;
+    color: var(--primary-color);
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.date {
+    grid-area: date;
+    font-size: 12px;
+}
+
+.excerpt {
+    grid-area: excerpt;
+}

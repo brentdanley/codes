@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Header from './header'
 import Footer from './footer'
-import styles from './layout.module.scss'
 import Link from 'next/link'
+
+import styles from './layout.module.scss'
 
 const name = 'Brent Danley'
 export const siteTitle = 'Brent Danley - Code Portfolio'
@@ -24,7 +25,7 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Header isHome={home} name={name} />
-      <main>{children}</main>
+      <main className={styles.main}>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
