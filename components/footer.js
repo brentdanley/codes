@@ -21,6 +21,14 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <p className={styles.copyright}>&copy; {format(new Date(), 'yyyy')} Brent Danley</p>
+            <div className={styles.contactWrapper}>
+                <a href="mailto:hireme@brentdanley.codes">hireme@brentdanley.codes</a><br />
+                <a href="tel:12074237145">(207) 423-7145</a><br /><br />
+                <address>
+                    18 Park Street Unit 401<br />
+                    Saco, ME 04072
+                </address>
+            </div>
             <ul className={styles.links}>
                 {
                 links.map(link => (
