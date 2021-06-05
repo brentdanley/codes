@@ -4,10 +4,6 @@ import styles from './navigation.module.scss'
 const PrimaryNavigation = props => {
     const navItems = [
         {
-            label: "Home",
-            link: '/',
-        },
-        {
             label: "Resume",
             link: '/posts/resume',
         },
@@ -18,6 +14,10 @@ const PrimaryNavigation = props => {
         {
             label: "CodePen",
             link: 'https://codepen.io/brentdanley',
+        },
+        {
+            label: "LinkedIn",
+            link: 'https://www.linkedin.com/in/brentdanley',
         },
     ]
 
