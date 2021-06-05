@@ -24,7 +24,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <Header isHome={home} name={name} title={`<${name} />`} />
+      <Header isHome={home} name={name} title={`<${name.split(" ").join("")} />`} />
       <main className={styles.main}>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
