@@ -21,7 +21,7 @@ const Header = props => {
                 </Link>
                 <h2 className={styles.title}>
                     <Link href="/">
-                    <a>{props.name}</a>
+                    <a>{props.title}</a>
                     </Link>
                 </h2>
         </header>
