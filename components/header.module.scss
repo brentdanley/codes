@@ -1,0 +1,33 @@
+.header {
+    background-color: var(--primary-color);
+    display: grid;
+    grid-template-areas: 'headshot title nav';
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+.title {
+    grid-area: title;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+    color: white;
+
+    a {
+        color: inherit;
+    }
+}
+
+.borderCircle {
+    grid-area: headshot;
+    border-radius: 9999px;
+    padding: 5px !important;
+    border: 3px solid white !important;
+}
+
+.nav {
+    grid-area: nav;
+}

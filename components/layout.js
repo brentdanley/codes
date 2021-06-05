@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from './header'
 import Footer from './footer'
-import styles from './layout.module.css'
+import styles from './layout.module.scss'
 import Link from 'next/link'
 
 const name = 'Brent Danley'

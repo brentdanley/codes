@@ -1,6 +1,7 @@
 import Link from 'next/link'
+import styles from './navigation.module.scss'
 
-export default function PrimaryNavigation() {
+const PrimaryNavigation = props => {
     const navItems = [
         {
             label: "Home",
@@ -21,7 +22,7 @@ export default function PrimaryNavigation() {
     ]
 
     return (
-        <nav>
+        <nav className={`${styles.wrapper} ${props.className}`}>
         {
             navItems.map(item => (
                 item.link.indexOf('http') === 0
@@ -32,3 +33,5 @@ export default function PrimaryNavigation() {
         </nav>
     )
 }
+
+export default PrimaryNavigation

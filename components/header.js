@@ -1,28 +1,27 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import PrimaryNavigation from './primary-navigation'
-import utilStyles from '../styles/utils.module.css'
-import styles from './layout.module.css'
+import styles from './header.module.scss'
 
 const Header = props => {
     return (
         <header className={styles.header}>
-                <PrimaryNavigation />
+                <PrimaryNavigation className={styles.nav} />
                 <Link href="/">
                     <a>
                     <Image
                         priority
                         src="/images/profile.jpg"
-                        className={utilStyles.borderCircle}
+                        className={styles.borderCircle}
                         height={108}
                         width={108}
                         alt={props.name}
                     />
                     </a>
                 </Link>
-                <h2 className={utilStyles.headingLg}>
+                <h2 className={styles.title}>
                     <Link href="/">
-                    <a className={utilStyles.colorInherit}>{props.name}</a>
+                    <a>{props.name}</a>
                     </Link>
                 </h2>
         </header>
