@@ -5,6 +5,7 @@ $mobile-breakpoint: 767px;
     display: grid;
     grid-template-columns: max-content 1fr auto;
     grid-template-areas: 'headshot title nav';
+    gap: 20px;
     justify-content: space-between;
     align-items: center;
     padding: 20px 5%;
