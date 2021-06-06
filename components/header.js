@@ -8,7 +8,7 @@ const Header = props => {
         <header className={styles.header}>
                 <PrimaryNavigation className={styles.nav} />
                 <Link href="/">
-                    <a>
+                    <a className={styles.headShot}>
                     <Image
                         priority
                         src="/images/profile.jpg"

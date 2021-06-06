@@ -1,10 +1,18 @@
+$mobile-breakpoint: 767px;
+
 .footer {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 'contact links' 'copyright copyright';
     justify-content: space-between;
     background-color: var(--primary-color);
     color: white;
     padding: 20px 5%;
+
+    @media (max-width: $mobile-breakpoint) {
+        grid-template-columns: 1fr;
+        grid-template-areas: 'contact' 'links' 'copyright';
+    }
 }
 
 .links {
@@ -16,6 +24,10 @@
 
     a {
         color: white;
+    }
+
+    @media (max-width: $mobile-breakpoint) {
+        text-align: center;
     }
 }
 
@@ -29,6 +41,10 @@
 
     address {
         font-style: normal;
+    }
+
+    @media (max-width: $mobile-breakpoint) {
+        text-align: center;
     }
 }
 
