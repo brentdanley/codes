@@ -5,6 +5,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 5%;
+
+    @media (max-width: 767px) {
+        grid-template-areas: 'headshot' 'title' 'nav';
+    }
 }
 
 .title {

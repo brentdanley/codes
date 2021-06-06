@@ -5,4 +5,8 @@
     a {
         color: rgb(255, 255, 255);
     }
+
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
 }
