@@ -51,8 +51,4 @@ $mobile-breakpoint: 767px;
 
 .nav {
     grid-area: nav;
-
-    @media (max-width: $mobile-breakpoint) {
-        text-align: center;
-    }
 }

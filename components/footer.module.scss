@@ -18,10 +18,18 @@ $mobile-breakpoint: 767px;
 
 .links {
     grid-area: links;
+    display: flex;
+    justify-content: flex-end;
     list-style-type: none;
     padding: 0;
-    margin: 0;
     text-align: right;
+
+    li {
+        height: 1em;
+        width: 1em;
+        margin: .5em;
+        cursor: pointer;
+    }
 
     a {
         color: white;

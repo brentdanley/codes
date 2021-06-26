@@ -1,20 +1,26 @@
 import { format } from 'date-fns'
 import styles from './footer.module.scss'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
+import { faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Footer = () => {
 
     const links = [
         {
             label: "brentdanley.com",
-            link: 'https://www.brentdanley.com/'
+            link: 'https://www.brentdanley.com/',
+            icon: faHome
         },
         {
             label: "Twitter",
-            link: 'https://twitter.com/brentdanley'
+            link: 'https://twitter.com/brentdanley',
+            icon: faTwitter
         },
         {
             label: "Instagram",
-            link: 'https://www.instagram.com/brentdanley/'
+            link: 'https://www.instagram.com/brentdanley/',
+            icon: faInstagram
         },
     ]
 
@@ -32,7 +38,7 @@ const Footer = () => {
             <ul className={styles.links}>
                 {
                 links.map(link => (
-                    <li><a href={link.link}>{link.label}</a></li>
+                    <li><a href={link.link}><FontAwesomeIcon icon={link?.icon} title={`Link to ${link.label}`} /></a></li>
                 ))
                 }
             </ul>
