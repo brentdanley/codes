@@ -45,3 +45,7 @@
     - Ethical Performance (EmberJS)
     - ReportAlert.info (Jekyll)
 - Slide toggle
+
+## Resume
+- Add Word download 
+- Add PDF download 

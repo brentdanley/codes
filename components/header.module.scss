@@ -1,7 +1,9 @@
 $mobile-breakpoint: 767px;
 
 .header {
-    background-color: var(--primary-color);
+    $primary-color: rgb(33, 55, 95);
+    background: linear-gradient(90deg, $primary-color, lighten($primary-color, 30%) 50%, $primary-color 100%);
+    background-size: 200%;
     display: grid;
     grid-template-columns: max-content 1fr auto;
     grid-template-areas: 'headshot title nav';
@@ -9,10 +11,15 @@ $mobile-breakpoint: 767px;
     justify-content: space-between;
     align-items: center;
     padding: 20px 5%;
+    transition: background-position 1s;
 
     @media (max-width: $mobile-breakpoint) {
         grid-template-columns: 1fr;
         grid-template-areas: 'headshot' 'title' 'nav';
+    }
+
+    &:hover {
+        background-position: right;
     }
 }
 
