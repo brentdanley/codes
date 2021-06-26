@@ -3,12 +3,16 @@ title: Brent Danley's Resume
 date: '2021-01-01'
 excerpt: Brent's resume with employment and education history
 ---
-
+## Download my resume in other formats
+<a href='/files/Brent%20Danley%20-%20Resume.docx' target='_blank' title='Brent&quot;s Resume in Microsoft Word format'>Microsoft Word</a><br>
+<a href='/files/Brent%20Danley%20-%20Resume.pdf' target='_blank' title='Brent&quot;s resume in PDF format'>PDF</a>
 ## Employment Highlights
-
 ### AirTank, Inc. - Peterborough, New Hampshire (remote)
 #### Senior Front-End Engineer        January 2021 to current
 - E-commerce templating using Liquid, CSS, and HTML.
+- Created Shopify templates for high-volume e-commerce sites.
+- Performed ADA accessibility compliance audits and performed necessary changes to improve those scores.
+- Implemented performance improvements including Sass modularization and transpilation, lazy loading, responsive multimedia assets, and a reduction of unnecessary DOM manipulations using CSS Grid and media queries.
 
 ### 3BL Media - Northampton, Massachusetts (remote)
 #### Lead Front-end Web Developer, January 2015 to March 2020
