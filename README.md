@@ -26,6 +26,17 @@
 
 ### Homepage
 - Video intro
+- Fullscreen panel at top with radial gradient with center at pointer
+- Bio copy is mostly hidden with white gradient fading bottom. On hover/focus, expand and remove gradient
+
+### Post cards
+- Category tags
+- FontAwesome icons for language/topic
+- Hover/focus affects
+    - Background gradient
+    - title underline
+    - move description into view
+    - Perhaps initially have title centered, maybe date under with orange background
 
 ### Post ideas
 - bowling

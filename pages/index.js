@@ -14,8 +14,9 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData }) {
+
   return (
-    <Layout home title="<BrentDanley />">
+    <Layout home title="Let's build something cool together.">
       <Head>
         <title>{siteTitle}</title>
       </Head>

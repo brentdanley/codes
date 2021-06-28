@@ -37,8 +37,8 @@ const Footer = () => {
             </div>
             <ul className={styles.links}>
                 {
-                links.map(link => (
-                    <li><a href={link.link}><FontAwesomeIcon icon={link?.icon} title={`Link to ${link.label}`} /></a></li>
+                links.map((link, key) => (
+                    <li key={key}><a href={link.link}><FontAwesomeIcon icon={link?.icon} title={`Link to ${link.label}`} /></a></li>
                 ))
                 }
             </ul>

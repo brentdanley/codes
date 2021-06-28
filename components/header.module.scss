@@ -2,8 +2,7 @@ $mobile-breakpoint: 767px;
 
 .header {
     $primary-color: rgb(33, 55, 95);
-    background: linear-gradient(90deg, $primary-color, lighten($primary-color, 30%) 50%, $primary-color 100%);
-    background-size: 200%;
+    background: radial-gradient(at 20% 10%, lighten($primary-color, 30%), $primary-color);
     display: grid;
     grid-template-columns: max-content 1fr auto;
     grid-template-areas: 'headshot title nav';
@@ -11,15 +10,36 @@ $mobile-breakpoint: 767px;
     justify-content: space-between;
     align-items: center;
     padding: 20px 5%;
-    transition: background-position 1s;
 
     @media (max-width: $mobile-breakpoint) {
         grid-template-columns: 1fr;
         grid-template-areas: 'headshot' 'title' 'nav';
     }
+}
 
-    &:hover {
-        background-position: right;
+.homeHeader {
+    @extend .header;
+
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content 1fr 1fr;
+    grid-template-areas:
+        'nav'
+        'headshot'
+        'title';
+
+    .nav {
+        justify-content: center;
+    }
+
+    .headShot {
+        align-self: end;
+        width: 250px;
+        height: 250px;
+    }
+
+    .title {
+        align-self: start;
     }
 }
 
@@ -41,6 +61,8 @@ $mobile-breakpoint: 767px;
 .headShot {
     grid-area: headshot;
     margin: 0 auto;
+    height: 108px;
+    width: 108px;
 
     .borderCircle {
         border-radius: 9999px;
