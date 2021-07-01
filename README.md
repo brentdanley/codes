@@ -59,6 +59,7 @@
 - VS Code setup and extensions
 - YouTube channels
 - CSS Battle/Golf!
+- Using CSS Custom Properties in Sass https://sass-lang.com/documentation/style-rules/declarations#custom-properties
 
 ## Resume
 - ~~Add Word download~~ 

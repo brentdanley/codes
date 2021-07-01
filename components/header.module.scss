@@ -2,7 +2,6 @@ $mobile-breakpoint: 767px;
 
 .header {
     $primary-color: rgb(33, 55, 95);
-    background: radial-gradient(at 20% 10%, lighten($primary-color, 30%), $primary-color);
     display: grid;
     grid-template-columns: max-content 1fr auto;
     grid-template-areas: 'headshot title nav';
