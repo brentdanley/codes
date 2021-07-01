@@ -26,7 +26,7 @@ The idea here is to set a background image or gradient on the text and set the f
 <img src="/images/just_stripes.png" alt="colored stripes" style="margin: 0 auto; max-width: 450px;">
 
 ## Final Step
-What we need to complete the affect is hide--or clip--the background image from everywhere *except* the text. We do this with the `background-clip` CSS property. 
+What we need to complete the affect is to hide--or clip--the background image from everywhere *except* the text. We do this with the `background-clip` CSS property. 
 
 ```css
   background-clip: text;
