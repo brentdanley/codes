@@ -3,7 +3,7 @@ title: Style text with an image
 date: '2021-06-30'
 excerpt: How to add a background image or gradient to text
 ---
-<img src="/images/striped_final.png" alt="Final striped text" style="image--centered">
+<img src="/images/striped_final.png" alt="Final striped text" class="image--centered">
 
 ## **tl;dr**  
 Set the text color to `transparent`, add a background image, and set the `background-clip` property to `text`.
@@ -37,7 +37,7 @@ What we need to complete the affect is to hide--or clip--the background image fr
 
 Voila! That's all there is to it.
 
-<img src="/images/striped_final.png" alt="Final striped text" style="image--centered">
+<img src="/images/striped_final.png" alt="Final striped text" class="class--centered">
 
 The final code is in the pen below. Now go make cool stuff. 
 
