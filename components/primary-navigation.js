@@ -37,8 +37,8 @@ const PrimaryNavigation = props => {
         {
             navItems.map(item => (
                 item.link.indexOf('http') === 0
-                    ? <a href={item.link} target="_blank" title={item.title}><FontAwesomeIcon icon={item.icon} /> {item.label}</a>
-                    : <Link href={item.link}><a title={item.title}><FontAwesomeIcon icon={item.icon} title={item.label} /> {item.label}</a></Link>
+                    ? <a href={item.link} target="_blank"  data-tooltip={item.title}><FontAwesomeIcon icon={item.icon} />{item.label}</a>
+                    : <Link href={item.link}><a data-tooltip={item.title}><FontAwesomeIcon icon={item.icon} /></a></Link>
             ))
         }
         </nav>

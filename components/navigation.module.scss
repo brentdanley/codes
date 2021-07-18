@@ -2,21 +2,53 @@ $mobile-breakpoint: 767px;
 
 .wrapper {
     display: flex;
+    flex-direction: row;
     gap: 16px;
     align-items: center;
 
     a {
-        display: flex;
         color: #fff;
         font-size: 1rem;
+        position: relative;
     
         svg {
             height: 1.5em;
             margin: 0 .5em;
         }
+
+        &::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            background: linear-gradient( 297deg, rgb(125 45 101 / 79%) 0%, rgb(212 94 0 / 78%) 100%);
+            border-radius: 0.5em;
+            padding: 0.5em 1em;
+            top: 2.2em;
+            left: -18px;
+            z-index: 2;
+            width: max-content;
+            max-width: 200px;
+            border: 1px solid white;
+            box-shadow: .2em .2em .2em hsl(0, 0%, 40%);
+            transform: scale(1,0);
+            transition: transform 0.2s cubic-bezier(0.62, 0.2, 0.89, 1.04);
+            transform-origin: top;
+            font: 500 1.2rem/1rem 'Zen Loop', cursive;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &:hover::after {
+            transform: scale(1,1);
+            transition: transform 0.4s cubic-bezier(0.44, 1.07, 0.76, 0.82);
+            color: white;
+        }
+
+        &:hover {
+            color: hsl(17, 87%, 71%);
+        }
     }
 
     @media (max-width: 767px) {
-        flex-direction: column;
     }
 }
